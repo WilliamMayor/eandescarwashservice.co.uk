@@ -5,6 +5,7 @@
 html, body {
     font-family: 'Gloria Hallelujah', cursive;
     min-width: 500px;
+    background-color: #FFF0F5;
 }
 ul li {
     list-style: none;
