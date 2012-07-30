@@ -1,0 +1,88 @@
+*, div {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    font-family: 'Gloria Hallelujah', cursive;
+    min-width: 500px;
+}
+ul li {
+    list-style: none;
+}
+h1 {
+    color: #f2a0d8;
+    font-size: 50pt;
+    text-align: center;
+}
+h2 {
+    font-size: 2.5em;
+}
+#nav {
+    text-align: center;
+}
+#nav a {
+    display: inline-block;
+    height: 80px;
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 26pt;
+    border: 3px solid black;
+    border-top: none;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-bottomright: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#nav a:hover {
+    height: 100px;
+    margin-bottom: 0px;
+}
+#nav_home, #nav_wash {
+    background-color: #fa530a;
+}
+#nav_about, #nav_comments {
+    background-color: #f2a0d8;
+}
+.bump {
+    color: #590160;
+}
+.section {
+    width: 80%;
+    margin: auto;
+    font-size: 18pt;
+    text-align: left;
+    z-index: 2;
+}
+table {
+    font-size: 16pt;
+    border-collapse: collapse;
+    margin: auto;
+}
+table td {
+    padding: 4px;
+}
+table .leftborder {
+    border-left: 2px solid black;
+}
+table .rightborder {
+    border-right: 2px solid black;
+}
+thead {
+    font-size: 18pt;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+div.author {
+    margin-left: 20%;
+}
+div.quote {
+    text-align: center;
+    font-style: italic;
+}
